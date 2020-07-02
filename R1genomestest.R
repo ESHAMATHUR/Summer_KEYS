@@ -2,7 +2,7 @@ library(tidyverse)
 library(ggplot2)
 
 #load dataset
-genome_file <- "genomes_desc.csv"
+genome_file <- "../Raw_Data/genomes_desc.csv"
 genome_data <- read_csv(genome_file)
 
 symb <- genome_data %>% filter(symbiotic != "non symbiotic")
