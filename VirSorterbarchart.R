@@ -12,4 +12,3 @@ VirSorterbc_data %>% ggplot(aes(x=Category))+
 
 ggsave("../Graphs_Data/VirSorterbc.png")
 
-
